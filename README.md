@@ -26,7 +26,9 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 ### Steps for local dev environment 
 
 To build the container 
-`docker build -t gulu-backend .`
+`docker build -t gulu-backend-prod .`
 
 To run the container
-`docker run -p3333:3333 gulu-backend`
+`docker run -p3333:3333 gulu-backend-prod`
+
+Container will run on http://localhost:3333/api
