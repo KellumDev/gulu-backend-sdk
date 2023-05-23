@@ -19,3 +19,14 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+
+## Docker 
+
+### Steps for local dev environment 
+
+To build the container 
+`docker build -t gulu-backend .`
+
+To run the container
+`docker run -p3333:3333 gulu-backend`
