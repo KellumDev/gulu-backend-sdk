@@ -23,7 +23,15 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 
 ## Docker 
 
-### Steps for local dev environment 
+### Steps for develop environment 
+
+build the image 
+`docker build -t gulu-backend -f Dockerfile.develop .`
+
+run the container
+`docker run -p3333:3333 gulu-backend`
+
+### Steps for prod environment 
 
 To build the container 
 `docker build -t gulu-backend-prod .`
